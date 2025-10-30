@@ -1,0 +1,29 @@
+{
+  "name": "nitzanScriptWrap",
+  "version": "1.0.0",
+  "description": "AI-powered CLI tool that automatically generates, builds, and tests Dockerfiles for existing scripts using OpenAI's GPT-4o-mini",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "start": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "build:start": "npm run build && node dist/cli.js",
+    "lint": "eslint .",
+    "test": "tsx src/test-runner.ts",
+    "test:security": "tsx src/cli.ts --generate-only ./scripts/line_counter/line_counter.sh ./scripts/line_counter/README.md"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.60.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.14.12",
+    "@types/yargs": "^17.0.34",
+    "eslint": "^9.12.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
