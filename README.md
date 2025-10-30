@@ -32,7 +32,7 @@ nitzanScriptWrap/
 
 ---
 
-## 🔧 **Advanced Features**# 🔧 **Advanced Features**project creates a generic tool that can wrap any script with Docker containers, automatically build and test them to ensure they work correctly.
+## 🔧 **Advanced Features**# 🔧 ** project creates a generic tool that can wrap any script with Docker containers, automatically build and test them to ensure they work correctly.
 
 ---
 
