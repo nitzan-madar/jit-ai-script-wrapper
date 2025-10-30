@@ -1,8 +1,10 @@
 # 🤖 nitzanScriptWrap
 
-**AI-powered CLI tool that automatically generates, builds, and tests Dockerfiles for existing scripts using LLM p## 💡 **Usage Examples**ovider (Default: OpenAI's GPT-4o-mini.)**
+**AI-powered CLI tool that automatically generates, builds, and tests Dockerfiles for existing scripts using LLM providers (Default: OpenAI's GPT-4o-mini).**
 
-Th---
+This project creates a generic tool that can wrap any script with Docker containers, automatically build and test them to ensure they work correctly.
+
+---
 
 ## 📁 **Project Structure**
 
